@@ -1,4 +1,4 @@
-## #CSS HTML JAVASCRIPT
+## #CSS #HTML #JAVASCRIPT
 ***Deploy: https://adrionbass.github.io/responsive-web-HTML-CSS/***
 
 This little project is a full-responsive website built with HTML, CSS and a bit of Javascript.

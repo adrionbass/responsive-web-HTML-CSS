@@ -29,9 +29,9 @@ function scrollUp() {
 
 window.onscroll = function () {
   var scroll = document.documentElement.scrollTop;
-  if (scroll > 400) {
+  if (scroll > 500) {
     upBtn.style.transform = "scale(1)";
-  } else if (scroll < 400) {
+  } else if (scroll < 500) {
     upBtn.style.transform = "scale(0)";
   }
 };
