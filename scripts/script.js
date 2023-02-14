@@ -7,6 +7,10 @@ menuBtn.addEventListener("click", () => {
   navLinks.classList.toggle("mobile-menu");
 });
 
+navLinks.addEventListener("click", () => {
+  navLinks.classList.toggle("mobile-menu");
+});
+
 
 /* SCROLL UP */
 
@@ -25,9 +29,9 @@ function scrollUp() {
 
 window.onscroll = function () {
   var scroll = document.documentElement.scrollTop;
-  if (scroll > 500) {
+  if (scroll > 400) {
     upBtn.style.transform = "scale(1)";
-  } else if (scroll < 500) {
+  } else if (scroll < 400) {
     upBtn.style.transform = "scale(0)";
   }
 };
