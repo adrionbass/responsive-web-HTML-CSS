@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADVENTURE</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <h1 class="logo">ADVENTURE</h1>
+      <ul class="nav-links">
+        <li><a class="active" href="#home">Home</a></li>
+        <li class=""><a href="#events">Events</a></li>
+        <li class=""><a href="#explore">Explore</a></li>
+        <li class=""><a href="#upcoming">Upcoming</a></li>
+        <li class=""><a href="http://">About</a></li>
+        <li class="ctn"><a href="#tour">Contac</a>t</li>
+      </ul>
+      <img src="./img/Hamburger_icon_white.png" alt="" class="menu-btn" />
+    </nav>
+    <header id="home">
+      <div class="header-content">
+        <h2>Explore The Colorful World</h2>
+        <div class="line"></div>
+        <h1>A WONDERFUL WOLRD</h1>
+        <a href="#" class="ctn">More ...</a>
+      </div>
+    </header>
+
+    <!-- EVENTS -->
+    <section id="events" class="events">
+      <div class="title">
+        <h1>Upcoming Events</h1>
+        <div class="line"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="./img/places/great-wall.jpg" alt="" />
+          <h4>Guided tour of Great Wall</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex,
+            dolorum ad cumque accusantium blanditiis sequi nam inventore
+            corrupti sint eligendi consequatur similique aut reprehenderit? Quos
+            obcaecati tenetur laboriosam mollitia minima.
+          </p>
+          <a href="#" class="ctn">More ...</a>
+        </div>
+        <div class="col">
+          <img src="./img/places/Vigo_-_Monumento_a_Julio_Verne_5.jpg" alt="" />
+          <h4>Unraveling the mysteries of Jules Verne</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex,
+            dolorum ad cumque accusantium blanditiis sequi nam inventore
+            corrupti sint eligendi consequatur similique aut reprehenderit? Quos
+            obcaecati tenetur laboriosam mollitia minima.
+          </p>
+          <a href="#" class="ctn">More ...</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPLORE -->
+    <section id="explore" class="explore">
+      <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
+          molestias culpa exercitationem totam ullam quas quis laudantium, id in
+          veniam consectetur expedita, sequi, suscipit illum quisquam quos dicta
+          deserunt libero.
+        </p>
+        <a href="#" class="ctn">More ...</a>
+      </div>
+    </section>
+
+    <!-- UPCOMING -->
+    <section id="upcoming" class="tours">
+      <div class="row">
+        <div class="col content-col">
+          <h1>UPCOMING TOURS & DESTINATION</h1>
+          <div class="line"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            numquam ratione vitae facilis suscipit aperiam harum sint quasi
+            asperiores, dolor deleniti maxime alias sunt sed velit quam natus
+            dolorum! Autem?
+          </p>
+          <a href="#" class="ctn">More ...</a>
+        </div>
+        <div class="col image-col">
+          <div class="image-gallery">
+            <img src="./img/places/Angkor Wat.jpg" alt="" />
+            <img src="./img/places/pexels-suliman-sallehi-1484776.jpg" alt="" />
+            <img
+              src="./img/places/pexels-андрей-марченко-12205267.jpg"
+              alt=""
+            />
+            <img src="./img/places/macchu-picchu.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- FOOTER -->
+    <section class="footer">
+      <p>
+        666 Incone Town, Paraná, ER, Argentina | Phone:
+        <a href="http://wa.me/5493434611666" target="_blank"
+          >+54 9 343 4611 666</a
+        >
+        | Email: adrielsmb@gmail.com
+      </p>
+      <p>Copyright © 2022 Outdoor Adventure</p>
+    </section>
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const navLinks = document.querySelector(".nav-links");
+
+      menuBtn.addEventListener("click", () => {
+        navLinks.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
