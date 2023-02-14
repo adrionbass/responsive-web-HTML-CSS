@@ -236,13 +236,13 @@ p {
   bottom: 30px;
   right: 30px;
   cursor: pointer;
-  border: 4px solid transparent;
+  
   transition: all 300ms ease;
   transform: scale(0);
 }
 
 #up-btn:hover {
-  transform: scale(1.1);
+  border: 4px solid transparent;
   border-color: rgba(0, 0, 0, 0.1);
 }
 
