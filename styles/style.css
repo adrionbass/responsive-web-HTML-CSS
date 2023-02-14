@@ -325,14 +325,12 @@ img:hover {
     width: 100%;
     height: 100vh;
     justify-content: center;
-    background-color: #484872;
     margin-top: -900px;
     transition: all 0.5s ease;
   }
 
   .mobile-menu {
     margin-top: 0px;
-    border-bottom-right-radius: 30%;
   }
 
   .nav-links li {
