@@ -108,7 +108,7 @@ header {
 
 .ctn:hover {
   background-color: whitesmoke;
-  box-shadow: 2px 2px 5px #00000056;
+  box-shadow: 2px 2px 3px #00000056;
   color: #fc036b;
   cursor: pointer;
 }
