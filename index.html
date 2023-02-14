@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ADVENTURE</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="./scripts/script.js" defer></script>
   </head>
   <body>
+    <!-- <a href="#home"
+      ><img src="./img/btnHome.png" alt="homeBtn" class="home-btn"
+    /></a> -->
     <!-- NAVBAR -->
     <nav class="navbar">
       <h1 class="logo">ADVENTURE</h1>
@@ -104,7 +108,17 @@
         </div>
       </div>
     </section>
-    
+
+    <!-- UP-BUTTON -->
+    <div id="up-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+        <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+        <path
+          d="M201.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L224 173.3 54.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"
+        />
+      </svg>
+    </div>
+
     <!-- FOOTER -->
     <section class="footer">
       <p>
@@ -116,13 +130,5 @@
       </p>
       <p>Copyright © 2022 Outdoor Adventure</p>
     </section>
-    <script>
-      const menuBtn = document.querySelector(".menu-btn");
-      const navLinks = document.querySelector(".nav-links");
-
-      menuBtn.addEventListener("click", () => {
-        navLinks.classList.toggle("mobile-menu");
-      });
-    </script>
   </body>
 </html>

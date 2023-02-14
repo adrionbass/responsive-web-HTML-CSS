@@ -89,6 +89,15 @@ header {
   color: whitesmoke;
 }
 
+.home-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 40px;
+  cursor: pointer;
+  /* display: none; */
+}
+
 .menu-btn {
   position: absolute;
   top: 30px;
@@ -221,7 +230,32 @@ p {
   margin-left: -100px;
 }
 
-  /* FOOTER */
+/* UP-BUTTON */
+#up-btn {
+  width: 60px;
+  height: 60px;
+  background: #46a2fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+  font-size: 20px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  cursor: pointer;
+  border: 4px solid transparent;
+  transition: all 300ms ease;
+  transform: scale(0);
+}
+
+#up-btn:hover {
+  transform: scale(1.1);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+/* FOOTER */
 
 .footer {
   width: 100%;
