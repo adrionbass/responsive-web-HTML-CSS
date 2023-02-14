@@ -1,4 +1,4 @@
-## This is little project is a full-responsive website built with HTML, CSS and a bit of Javascript.
+## This little project is a full-responsive website built with HTML, CSS and a bit of Javascript.
 
 * * * *
 
