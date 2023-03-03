@@ -35,11 +35,6 @@ html {
   overflow-x: hidden;
 }
 
-.bebas-font {
-  font-family: "Bebas Neue", cursive;
-  letter-spacing: 10px;
-}
-
 /* NAVBAR */
 .navbar {
   position: absolute;
